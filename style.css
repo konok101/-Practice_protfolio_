@@ -10,7 +10,7 @@ h1{
 span{
     color: orange;
 }
-section{
+ .flexable_container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -44,4 +44,48 @@ section{
  
 }
 
+/* experience part */
+.expriense_area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   margin-top: 90px;
+}
+
+.box_sadow-BABY{
+    width: 40%;
+    margin-left: 60px;
+    margin-right: 7px;
+    box-shadow: 10px 5px  rgb(143, 22, 22);
+
+}
+.box_sadow-Full{
+    width: 40%;
+    box-shadow:   10px 11px 10px   rgb(248, 244, 244);
+}
+
+
+/* box_shadow  */
+.BORDER_SLICE_Full {
+    margin-left: 100px;
+    border-left: 10px solid;
+    border-image: linear-gradient(red, black);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
+
+
+.BORDER_SLICE_BABY {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan); 
+     
+    
+    border-image-slice: 4;
+}
  
